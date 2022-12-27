@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: cursive;
+    color: black;
+    font-size: large;
 }
 #banner  {
    
@@ -10,7 +12,6 @@
     background-position: center;
     height: 100vh;
 }
-
 .logo {
 width: 70px;
 height: 70px;
@@ -21,14 +22,13 @@ display: block;
 .banner-text{
     width: 100%;
     text-align: center;
-    color: black;
     padding-top: 23px;
 }
 .banner-text h1{
     font-size: 62px;
     font-family:'Argentina Script', sans-serif;
 }
-.banner-text p{
+.banner-text h2{
 font-size: 30px;
 font-family: 'Argentina Script', sans-serif;
 }
@@ -41,40 +41,23 @@ button{
     border: 1px solid black;
     background: transparent;  
 }
-a {
-    font-style: italic;
-    color: black;  
-}
 #menu {
    justify-content: center;
    text-align: center;
 }
-
 body  {
     background-color: rgba(128, 128, 128, 0.348);
 }
 /* del 2*/
-
-/*.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.368);  
-}*/
-
 .form {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
 }
-
 #adress {
-    display: flexbox;
-    justify-content: center;
-    margin-top: 20px;
-    text-align: center;
+    width: 100%;
+    margin: 20px;
+   
 }
-
-
 @import url('https://fonts.cdnfonts.com/css/argentina-script-2');
