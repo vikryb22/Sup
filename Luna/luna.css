@@ -46,7 +46,7 @@ button{
    
 }
 a {
-    font-family: 'Argentina Script', sans-serif;
+    font-style: italic;
     color: black;
     
 }
@@ -81,6 +81,7 @@ body  {
     justify-content: center;
     margin-top: 20px;
     text-align: center;
+    
     
 }
 
