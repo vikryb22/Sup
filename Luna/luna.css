@@ -20,17 +20,19 @@ display: block;
 }
 .banner-text{
     text-align: center;
-    color: rgb(79, 73, 73);
+    color: black;
     padding-top: 23px;
+   
 
 }.banner-text h1{
     font-size: 62px;
-    font-family:'Deraga', sans-serif;
+    font-family:'Argentina Script', sans-serif;
+  
     
 }
 .banner-text p{
-font-size: 20px;
-font-family: italic;
+font-size: 30px;
+font-family: 'Argentina Script', sans-serif;
 }
 
 button{
@@ -39,22 +41,19 @@ button{
     text-align: center;
     margin: 20px 10px;
     border-radius: 10px;
-    font-weight: b;
-    border: 2px solid gray;
+    border: 1px solid black;
     background: transparent;
-    color: rgba(0, 0, 0, 0.748) ;
-    cursor: pointer;
+   
+}
+a {
+    font-family: 'Argentina Script', sans-serif;
+    color: black;
     
 }
 #menu {
   
    justify-content: center;
    text-align: center;
-   
-   
-  
-
-
 }
 
 body  {
@@ -66,15 +65,24 @@ body  {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
-    gap: 80px;
     background-color: white;
+    
 }
-
 .form {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 500px;
+    height: 100px;
+   
 }
-@import url('https://fonts.cdnfonts.com/css/deraga');
+
+#adress {
+    display: flexbox;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/argentina-script-2');
