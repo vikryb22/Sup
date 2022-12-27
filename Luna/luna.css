@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#banner  {
+   
+    background: url(https://decoholic.org/wp-content/uploads/2022/02/Small-Scandinavian-Apartment-Interior-design-720x509.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo {
+width: 70px;
+position: absolute;
+top: 4%;
+left: 5%;
+}
+.banner-text{
+    text-align: center;
+    color: rgb(79, 73, 73);
+    padding-top: 23px;
+
+}.banner-text h1{
+    font-size: 62px;
+    font-family: italic;
+    
+}
+.banner-text p{
+font-size: 20px;
+font-family: italic;
+}
+
+button{
+    width: 90px;
+    padding: 8px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    font-weight: b;
+    border: 2px solid gray;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.748) ;
+    cursor: pointer;
+    
+
+ 
+ 
+ }
+ #sideNav{
+    width: 100px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+ }
+ nav ul li  {
+    list-style: none;
+    margin: 50px 20px;
+ }
+ nav ul li  a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.748);
+ }
+/* del 2*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    gap: 80px;
+    background-color: white;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.bild {
+    display: flex;
+    justify-content: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}

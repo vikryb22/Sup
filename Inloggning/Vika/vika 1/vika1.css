@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#banner  {
+   
+    background: url(https://decoholic.org/wp-content/uploads/2022/02/Small-Scandinavian-Apartment-Interior-design-720x509.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.553);
+}

@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;   
+}
+ .wrapper  {
+    min-height: 100vh;
+    width: 100%;
+    background-color: gainsboro;
+    background-image: url(https://decoholic.org/wp-content/uploads/2022/02/Small-Scandinavian-Apartment-Interior-design-720x509.jpg);
+    background-size: cover;
+    
+ }
+
+h1{
+     color: rgb(105, 105, 105);
+    text-align: center;
+    
+}
+
+h2{
+    color: dimgray;
+    text-align: center;
+}
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+}
+a  {
+    text-decoration: none;
+    border: 1px solid black;
+    background: silver;
+    color: black;
+    margin-right: 10px;
+   border-radius: 6px;
+}
+/*div {
+    border: 2px solid black;
+} */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+}
+.column-1 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.options {
+display: flex;
+justify-content: space-between;
+}
+.options div {
+    display: flex;
+   
+    }
